@@ -6,11 +6,11 @@ const Todo = () => {
     {id:2, title: 'clean the house', completed: false},
     {id:3, title: 'cook hamburguer', completed: true}
   ]
-  const createTask = (object, index) => {
+  const createTask = (object) => {
     const { id, title, completed} = object ;
     const h1 = <h1>{title}</h1>
     const text = completed ? <strike>{h1}</strike> : h1
-    return (<div key={index} data-testid={`todo-${id}`}>{text}</div>)
+    return (<div key={id} data-testid={`todo-${id}`}>{text}</div>)
   }
 
   return (

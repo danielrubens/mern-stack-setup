@@ -21,5 +21,6 @@ describe('Testing the Todo component', () => {
         const todoElement = screen.getByTestId("todo-3");
         expect(todoElement).toBeInTheDocument();
         expect(todoElement).toHaveTextContent('cook hamburguer');
+        expect(todoElement).toContainHTML('strike');
     });
 })
