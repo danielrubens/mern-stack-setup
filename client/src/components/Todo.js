@@ -2,7 +2,7 @@ import React from 'react'
 
 const Todo = () => {
   return (
-    <div>Todo</div>
+    <div data-testid="todo-1">Todo</div>
   )
 }
 
