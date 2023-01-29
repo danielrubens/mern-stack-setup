@@ -17,3 +17,5 @@ For this project I choosed:
 - Browser
 - Standard
 - JSON
+
+On the `.eslintrc.json` I also added `"jest": true` for the `env` key.
