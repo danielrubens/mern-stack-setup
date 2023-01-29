@@ -10,10 +10,10 @@ Setup ESLint
 #### `cd client`
 #### `npm init @eslint/config`
 For this project I choosed:
-- "To check syntax, find problems and enforce code style";
-- JavaScript modules (import/export);
-- React;
-- TypeScript: yes;
-- Browser;
-- Standard;
-- JSON;
+- "To check syntax, find problems and enforce code style"
+- JavaScript modules (import/export)
+- React
+- TypeScript: yes
+- Browser
+- Standard
+- JSON
