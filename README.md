@@ -18,4 +18,4 @@ For this project I choosed:
 - Standard
 - JSON
 
-On the `.eslintrc.json` I also added `"jest": true` for the `env` key.
+On the `.eslintrc.json` I also added `"jest": true` for the `env` key and `"project": "./tsconfig.json"` for the `parserOptions` key.
