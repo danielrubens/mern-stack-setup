@@ -1,6 +1,6 @@
 # Full Stack Setup
 
-This is a configuration project, going step-by-step on how to setup a client-server environment.
+This is a setup project to a client-server environment.
 
 ## If you want to go step by step:
 In the root directory, start by creating your React App under a TypeScript template:
@@ -26,3 +26,10 @@ To format the correct way to work with ESLint:
 On the `.eslintrc.json` add `"plugin:prettier/recommended"` inside the array of the `extends` key. The same goes for the string `"prettier"` inside the array of the `plugins` key.
 
 If you want to learn more about style configuration, the Lintel extensions has several tips.
+
+To have conventional commits using Husky:
+#### `npx husky-init && npm install`
+
+On `.husky/pre-commit` you can add the commands you want Husky to run before you commit.
+
+The same principals go to the server folder.
