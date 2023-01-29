@@ -24,3 +24,5 @@ On the `package.json` add `"lint": "eslint ."` and `"lint:fix": "eslint --fix"` 
 To format the correct way to work with ESLint:
 #### `npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev`
 On the `.eslintrc.json` add `"plugin:prettier/recommended"` inside the array of the `extends` key. The same goes for the string `"prettier"` inside the array of the `plugins` key.
+
+If you want to learn more about style configuration, the Lintel extensions has several tips.
