@@ -4,7 +4,7 @@ This is a configuration project, going step-by-step on how to setup a client-ser
 
 ## If you want to go step by step:
 In the root directory, start by creating your React App under a TypeScript template:
-#### `npm create-react-app --template=typescript client`
+#### `npx create-react-app client`
 
 Setup ESLint
 #### `cd client`
@@ -13,9 +13,13 @@ For this project I choosed:
 - "To check syntax, find problems and enforce code style"
 - JavaScript modules (import/export)
 - React
-- TypeScript: yes
+- TypeScript: no
 - Browser
 - Standard
 - JSON
 
-On the `.eslintrc.json` I also added `"jest": true` for the `env` key and `"project": "./tsconfig.json"` for the `parserOptions` key.
+On the `.eslintrc.json` add `"jest": true` for the `env` key.
+On the `package.json` add `"lint": "eslint ."` and `"lint:fix": "eslint --fix"` on the `scripts` key.
+
+To format the correct way to work with ESLint:
+#### `npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev`
